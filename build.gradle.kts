@@ -20,7 +20,7 @@ kotlin {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:26.3.build.40-alpha")
+    compileOnly("io.papermc.paper:paper-api:26.2.build.+")
 }
 
 publishing {
