@@ -32,7 +32,10 @@ interface SchematicManager {
 
     /**
      * Automatically detects the schematic format and loads it.
+     * @throws SchematicLoadException
+     * @return the loaded Schematic
      */
+    @Throws(SchematicLoadException::class)
     fun load(file: Path): Schematic
 
     /**
